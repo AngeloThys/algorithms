@@ -20,8 +20,16 @@
 #         if target, return index
 # if no:
 #    return -1
-
 def binarySearch(list, target):
+    """Binary search algorithm
+
+    Args:
+        list (list): A list of numbers
+        target (number): A number to search for
+
+    Returns:
+        number: The index of the target in the list
+    """
     lower = 0
     higher = len(list) - 1
 
